@@ -301,7 +301,7 @@ void AVL::print2D(Node* pTree, int space)
 
 		print2D(pTree->getRightPtr(), space);
 
-		for (int i = 2; i < space; i++)
+		for (int i = 3; i < space; i++)
 			std::cout << " ";
 		std::cout << pTree->getData().getCharacter() << std::endl;
 
